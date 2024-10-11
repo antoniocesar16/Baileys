@@ -111,3 +111,9 @@ export type AuthenticationState = {
     creds: AuthenticationCreds
     keys: SignalKeyStore
 }
+
+// export pairing code
+export type PairingCode = {
+    code: string
+    qrCode: string
+}
